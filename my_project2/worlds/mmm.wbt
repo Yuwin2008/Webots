@@ -1,0 +1,42 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/sphero/bb8/protos/BB-8.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.22166216413103795 0.007157290285227104 0.97509725575889 3.078656017048799
+  position 32.62738971749305 -1.2537642982463846 15.131987900853241
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 3 3
+  floorTileSize 1 1
+}
+DirectionalLight {
+  direction 0 -1 0
+}
+BB-8 {
+  hidden position_0_0 0.8329038362832113
+  hidden position_0_1 0.8328604286153056
+  hidden linearVelocity_0 -0.058265343054760756 -0.13035297200105767 0.16659132956924758
+  hidden angularVelocity_0 -1.4758033409316713 0.7389901357875557 0.22194624300352958
+  hidden rotation_3 0 0 1 0.8329038362832113
+  hidden position_3_0 110.33816208931184
+  hidden linearVelocity_3 -0.035396377141672826 -0.03324289866789911 0.02046502611671748
+  hidden angularVelocity_3 -0.6211340857760197 1.0431564199464554 0.6054707595846172
+  hidden rotation_4 0 -0.9999999999999999 0 2.75917343992072
+  hidden linearVelocity_4 -0.03534344864334951 -0.033141590828202144 0.020176528446137904
+  hidden angularVelocity_4 0.13372979478142316 -0.14426184175990447 -0.08253003108867477
+  hidden rotation_7 0 0 1 0.8328604286153057
+  hidden linearVelocity_7 0.013874915926865565 0.1805605181903673 -0.30142229003419624
+  hidden angularVelocity_7 -0.6211772464825029 1.0432210259189634 0.6055124545584436
+  translation -1.5090373293238957 -1.3604375865631295 0.11796112047978172
+  rotation 0.5218679535678088 0.1854038884232977 0.8326339154733421 -3.1302973816410162
+}
